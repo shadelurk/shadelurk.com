@@ -198,6 +198,10 @@ a.chip:hover { background: var(--accent); color: var(--ink); border-color: var(-
 .social { display: inline-flex; align-items: center; gap: 10px; padding: 10px 16px; border: 1px solid var(--line); border-radius: 99px; text-decoration: none; font-size: 14px; transition: background .2s, color .2s; }
 .social svg { width: 17px; height: 17px; fill: currentColor; }
 .social:hover { background: var(--paper); color: var(--ink); }
+.contact-label { margin-top: 28px !important; }
+.contact-mail { font-size: 15px; letter-spacing: .04em; text-decoration: none; border-bottom: 1px solid var(--line); padding-bottom: 2px; }
+.contact-mail:hover { border-color: var(--paper); }
+.foot small a { color: inherit; text-decoration: none; }
 .socials--small .social { padding: 8px; border-radius: 50%; }
 .socials--small .social span { display: none; }
 
